@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
   NSLog(@"viewDidLoad");
+  NSLog(@"git sutdy 4");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
