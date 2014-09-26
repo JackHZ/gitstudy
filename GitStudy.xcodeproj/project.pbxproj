@@ -24,6 +24,7 @@
 		E676D5071778280300582C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E676D4DF1778280300582C28 /* Foundation.framework */; };
 		E676D50F1778280400582C28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E676D50D1778280400582C28 /* InfoPlist.strings */; };
 		E676D5121778280400582C28 /* GitStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E676D5111778280400582C28 /* GitStudyTests.m */; };
+		EAC2DC9019D51D3000667F70 /* Content.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAC2DC8F19D51D3000667F70 /* Content.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		E676D50E1778280400582C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E676D5101778280400582C28 /* GitStudyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitStudyTests.h; sourceTree = "<group>"; };
 		E676D5111778280400582C28 /* GitStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitStudyTests.m; sourceTree = "<group>"; };
+		EAC2DC8F19D51D3000667F70 /* Content.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Content.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				E676D4FB1778280300582C28 /* ViewController.h */,
 				E676D4FC1778280300582C28 /* ViewController.m */,
 				E676D4E41778280300582C28 /* Supporting Files */,
+				EAC2DC8F19D51D3000667F70 /* Content.strings */,
 			);
 			path = GitStudy;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC2DC9019D51D3000667F70 /* Content.strings in Resources */,
 				E676D4E81778280300582C28 /* InfoPlist.strings in Resources */,
 				E676D4F01778280300582C28 /* Default.png in Resources */,
 				E676D4F21778280300582C28 /* Default@2x.png in Resources */,
@@ -467,6 +471,7 @@
 				E676D5171778280400582C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E676D5181778280400582C28 /* Build configuration list for PBXNativeTarget "GitStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				E676D51A1778280400582C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
